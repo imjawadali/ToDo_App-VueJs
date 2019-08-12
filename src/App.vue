@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <AddTodo v-on:addTodo="addTodo" />
-    <Todos v-bind:todos="todos" v-on:delTodo="deleteTodo" />
+    <Todos :todos="todos" v-on:delTodo="deleteTodo" />
   </div>
 </template>
 
